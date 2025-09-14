@@ -14,34 +14,34 @@ main:
  - name: Blog
    pageRef: posts
    weight: 10
- - name: Parent
-   weight: 20
- - name: example sub-menu 1
-   parent: Parent
-   pageRef: posts
-   weight: 20
- - name: example sub-menu 2
-   parent: Parent
-   pageRef: posts
-   weight: 20
+# - name: Parent
+#   weight: 20
+# - name: example sub-menu 1
+#   parent: Parent
+#   pageRef: posts
+#   weight: 20
+# - name: example sub-menu 2
+#   parent: Parent
+#   pageRef: posts
+#   weight: 20
  - name: Categories
    pageRef: categories
    weight: 20
  - name: Tags
    pageRef: tags
    weight: 30
-subnavigation:
- - name: An interesting topic
-   pageRef: tags/interesting-topic
-   weight: 10
- - name: My Awesome Category
-   pre: github
-   pageRef: categories/awesome
-   weight: 20
-footer:
- - name: Tags
-   pageRef: tags
-   weight: 10
- - name: Categories
-   pageRef: categories
-   weight: 20
+#subnavigation:
+# - name: An interesting topic
+#   pageRef: tags/interesting-topic
+#   weight: 10
+# - name: My Awesome Category
+#   pre: github
+#   pageRef: categories/awesome
+#   weight: 20
+#footer:
+# - name: Tags
+#   pageRef: tags
+#   weight: 10
+# - name: Categories
+#   pageRef: categories
+#   weight: 20

@@ -7,14 +7,14 @@
 
 colorScheme: princess
 defaultAppearance: dark # valid options: light or dark
-autoSwitchAppearance: true
+autoSwitchAppearance: false
 
 enableSearch: true
 enableCodeCopy: false
 
 replyByEmail: false
 
-# mainSections = ["section1", "section2"]
+mainSections: ["posts"]
 # robots = ""
 
 disableImageOptimization: false

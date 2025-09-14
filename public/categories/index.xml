@@ -2,14 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Episto</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Episto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>muhakmalfadh@gmail.com (Akmal)</managingEditor>
     <webMaster>muhakmalfadh@gmail.com (Akmal)</webMaster>
     <copyright>© 2025 Akmal</copyright>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 18:20:42 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/categories/devops/</link>
+      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/categories/devops/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
