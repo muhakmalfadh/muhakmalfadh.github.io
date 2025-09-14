@@ -4,8 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="dark"
-  data-auto-appearance="false"><head>
-	<meta name="generator" content="Hugo 0.142.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -15,19 +14,15 @@
   <meta name="theme-color">
 
   
-  <title>Episto</title>
-    <meta name="title" content="Episto">
+  <title>Traefik &middot; Episto</title>
+    <meta name="title" content="Traefik &middot; Episto">
 
   
   
+  <meta name="keywords" content="traefik,docker,">
   
   
-  
-  <link rel="canonical" href="http://localhost:1313/">
-  
-      <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Episto" />
-  
-      <link rel="alternate" type="application/json" href="/index.json" title="Episto" />
+  <link rel="canonical" href="http://localhost:1313/posts/traefik-configuration-starter/">
   
   
   
@@ -61,9 +56,6 @@
     
   
   
-    
-    
-  
   
   
   
@@ -77,8 +69,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.2a700d98037fb0c14d144bda34f1591a5e2e6b565cf83590ee197a250fde4be98291d9cde6830d41654642a127ec85619ecbc8c9dccc483d1ba8973d2b3af5e0.js"
-      integrity="sha512-KnANmAN/sMFNFEvaNPFZGl4ua1Zc&#43;DWQ7hl6JQ/eS&#43;mCkdnN5oMNQWVGQqEn7IVhnsvIydzMSD0bqJc9Kzr14A=="
+      src="/js/main.bundle.min.0ea09b1166a1db6af540bead84729a3fd7be30f0c3c795267cfe8e4e3d0e1d51fabedb42a7f1d84dff73be1a2cfc93cfadbd7e68f616f0d790d283ca028da522.js"
+      integrity="sha512-DqCbEWah22r1QL6thHKaP9e&#43;MPDDx5UmfP6OTj0OHVH6vttCp/HYTf9zvhos/JPPrb1&#43;aPYW8NeQ0oPKAo2lIg=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -103,31 +95,47 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:url" content="http://localhost:1313/posts/traefik-configuration-starter/">
   <meta property="og:site_name" content="Episto">
-  <meta property="og:title" content="Episto">
+  <meta property="og:title" content="Traefik">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-31T18:20:42+07:00">
+    <meta property="article:modified_time" content="2025-08-31T18:20:42+07:00">
+    <meta property="article:tag" content="Traefik">
+    <meta property="article:tag" content="Docker">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Episto">
+  <meta name="twitter:title" content="Traefik">
 
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "http:\/\/localhost:1313\/",
-    "name": "Episto",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Traefik",
+    "headline": "Traefik",
+    
     
     "inLanguage": "en",
-    "url": "http:\/\/localhost:1313\/",
-    
-    "publisher" : {
+    "url" : "http:\/\/localhost:1313\/posts\/traefik-configuration-starter\/",
+    "author" : {
       "@type": "Person",
       "name": "Akmal"
-    }
-  }
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-08-31T18:20:42\u002b07:00",
+    "datePublished": "2025-08-31T18:20:42\u002b07:00",
+    
+    "dateModified": "2025-08-31T18:20:42\u002b07:00",
+    
+    "keywords": ["traefik","docker"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "273"
+  }]
   </script>
 
 
@@ -451,36 +459,128 @@
       <main id="main-content" class="grow">
         
   
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Traefik
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+
+  
   
     
-<article
-  class="
-    h-full
-   flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-08-31T18:20:42&#43;07:00">31 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>273 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+    
     
       
+    
+    
       
         
       
-      
-        
-          
-        
-        <img
-          class="mb-2 rounded-full h-36 w-36"
-          width="144"
-          height="144"
-          alt="Akmal"
-          src="/img/profile_hu_381dac887b9100be.jpg">
-      
+      <img
+        class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4"
+        width="96"
+        height="96"
+        alt="Akmal"
+        src="/img/profile_hu_6199ed358f83fd43.jpg">
     
-    <h1 class="text-4xl font-extrabold">
-      Akmal
-    </h1>
+  
+  <div class="place-self-center">
     
-    <div class="mt-1 text-2xl">
-      
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        Author
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Akmal
+      </div>
+    
+    
+    <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
     
       
@@ -521,21 +621,180 @@
     
   </div>
 
-
-    </div>
-  </header>
-  <section class="prose dark:prose-invert w-full"></section>
-</article>
-<section>
-  
-
-
-
-</section>
+</div>
+  </div>
+</div>
 
   
+
+  
+
+  
+    <div class="mb-5"></div>
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>This is basic traefik configuration that often I use when using traefik. This
+configuration focusing on using file providers as traefik configuration therefore
+the <code>docker-compose.yaml</code> looks clean. But as for the downside, you need to copy
+multiple files like the <code>docker-compose.yaml</code> and <code>traefik.yaml</code> as base
+configuration. Then the dynamic configuration files need to be created based
+on your needs.</p>
+<p>This <code>docker-compose.yaml</code> file will create 2 containers; traefik and whoami
+service to test if this configuration working as we want.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-docker-compose.yaml" data-lang="docker-compose.yaml"><span class="line"><span class="cl"><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">traefik</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">traefik:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;TZ=Asia/Jakarta&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;80:80&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;443:443&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;8080:8080&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./traefik.yaml:/etc/traefik/traefik.yaml</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./dynamic:/etc/traefik/dynamic</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./letsencrypt:/etc/traefik/letsencrypt</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">healthcheck</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;CMD&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;traefik&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;healthcheck&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="l">60s</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">retries</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">whoami</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">traefik/whoami</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
+</span></span></span></code></pre></div><p>This <code>traefik.yaml</code> file is the base configuration for traefik.
+It already includes HTTP Redirection to HTTPS, SSL Automatic
+Renewal, and automatic configuration discovery.
+Additional notes, if you want the dynamic configuration to be
+applied automatically, it should be referenced as a file inside
+<code>providers.file.directory</code>. If you add new directory inside it and
+put the configuration inside the child directory, then the automatic
+reload will not work.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-traefik.yaml" data-lang="traefik.yaml"><span class="line"><span class="cl"><span class="nt">entryPoints</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">web</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">address</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;:80&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">http</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">redirections</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">entryPoint</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="l">websecure</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="l">https</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">websecure</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">address</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;:443&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">api</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">dashboard</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">insecure</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">debug</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">log</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="l">json</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="l">INFO</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">accessLog</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">addInternals</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="l">json</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">filters</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">statusCodes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;200&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;400-404&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;500-503&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">retryAttempts</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">minDuration</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;10ms&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">certificatesResolvers</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">letsencrypt</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">acme</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;test@example.com&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">storage</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;/etc/traefik/letsencrypt/acme.json&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">httpChallenge</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">entryPoint</span><span class="p">:</span><span class="w"> </span><span class="l">web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">providers</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">file</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">directory</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;/etc/traefik/dynamic&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">watch</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div><p>This is a basic dynamic configuration to route all request
+to domain <code>example.com</code> to be received by <code>service-whoami</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dynamic/svc-a.yaml" data-lang="dynamic/svc-a.yaml"><span class="line"><span class="cl"><span class="nt">http</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">routers</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">router-whoami</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">rule</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Host(`example.com`)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">service</span><span class="p">:</span><span class="w"> </span><span class="l">service-whoami</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">service-whoami</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">loadBalancer</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">servers</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span>- <span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">http://whoami:80</span><span class="w">
+</span></span></span></code></pre></div>
+          
+          
+          
+        </div>
+        
+        
 
         
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_posts/traefik-configuration-starter.md"
+          data-oid-likes="likes_posts/traefik-configuration-starter.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+
+
+      
+    </footer>
+  </article>
+
+        <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0 z-10">
+  <a
+    href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   

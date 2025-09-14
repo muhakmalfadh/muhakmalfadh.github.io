@@ -10,7 +10,7 @@ defaultAppearance: dark # valid options: light or dark
 autoSwitchAppearance: false
 
 enableSearch: true
-enableCodeCopy: false
+enableCodeCopy: true
 
 replyByEmail: false
 

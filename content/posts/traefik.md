@@ -1,12 +1,10 @@
 +++
-title = 'Traefik'
+title = 'Traefik Configuration Starter'
 date = '2025-08-31T18:20:42+07:00'
 draft = false
 tags = [ "traefik", "docker"]
 categories = [ "devops" ]
 +++
-
-Traefik Configuration Starter
 
 This is basic traefik configuration that often I use when using traefik. This
 configuration focusing on using file providers as traefik configuration therefore
