@@ -12,7 +12,7 @@ categories = [ "sysadmin" ]
 
 You've got a powerful laptop, running a stable distribution like Omarchy OS (or Arch, Fedora, etc.).
 
-  * **Plugged In:** The CPU runs perfectly, hitting its advertised boost speeds ($3\text{ GHz}$ or more).
+  * **Plugged In:** The CPU runs perfectly, hitting its advertised boost speeds (3 GHz or more).
   * **On Battery:** The CPU instantly locks to its minimum frequency, often **200MHz** or **400MHz**. The system becomes sluggish, even under zero load.
   * **The Check:** You check your power settings:
       * `powerprofilesctl get` shows **`balanced`**.
@@ -32,7 +32,7 @@ This behavior is a strong indicator that the operating system has been **overrid
 The likely cause, especially if you recently replaced the laptop battery, is the **BD\_PROCHOT** (Bi-Directional Processor Hot) signal.
 
   * **What it is:** BD\_PROCHOT is a safety signal asserted by the laptop's **Embedded Controller (EC)**. It forces the CPU to hard-throttle to its minimum frequency regardless of the OS settings.
-  * **Why it Triggers:** Laptops are often programmed to trigger this safety signal if the EC detects a potential power fault. A common scenario is when a **replacement or non-OEM battery** is installed, and the EC cannot verify its power signature or accurately read its status. The EC defaults to maximum safety, resulting in the aggressive $200\text{ MHz}$ lock.
+  * **Why it Triggers:** Laptops are often programmed to trigger this safety signal if the EC detects a potential power fault. A common scenario is when a **replacement or non-OEM battery** is installed, and the EC cannot verify its power signature or accurately read its status. The EC defaults to maximum safety, resulting in the aggressive 200 MHz lock.
 
 Since this signal operates below the kernel level, a software configuration change won't fix it—we need a surgical software workaround.
 
