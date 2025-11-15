@@ -17,10 +17,10 @@ You've got a powerful laptop, running a stable distribution like Omarchy OS (or 
   * **The Check:** You check your power settings:
       * `powerprofilesctl get` shows **`balanced`**.
       * The CPU governor is correctly set to the dynamic **`powersave`** (when using Intel P-State).
-        * ```bash
-          $ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-          powersave
-          ```
+        ```bash
+        $ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+        powersave
+        ```
       * No obvious culprits like TLP or `auto-cpufreq` are installed.
 
 This behavior is a strong indicator that the operating system has been **overridden by the hardware's firmware**.
