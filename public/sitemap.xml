@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://episto.my.id/</loc>
+    <lastmod>2025-11-15T10:14:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/posts/</loc>
+    <lastmod>2025-11-15T10:14:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/categories/</loc>
     <lastmod>2025-08-31T18:20:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>https://episto.my.id/categories/devops/</loc>
     <lastmod>2025-08-31T18:20:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/traefik/</loc>
+  </url><url>
+    <loc>https://episto.my.id/tags/docker/</loc>
     <lastmod>2025-08-31T18:20:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/tags/</loc>
+    <lastmod>2025-08-31T18:20:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/tags/traefik/</loc>
+    <lastmod>2025-08-31T18:20:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/posts/traefik-configuration-starter/</loc>
+    <lastmod>2025-08-31T18:20:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://episto.my.id/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

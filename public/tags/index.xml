@@ -2,34 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Episto</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://episto.my.id/tags/</link>
     <description>Recent content in Tags on Episto</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>muhakmalfadh@gmail.com (Akmal)</managingEditor>
     <webMaster>muhakmalfadh@gmail.com (Akmal)</webMaster>
-    <copyright>© 2025 Akmal</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 18:20:42 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 31 Aug 2025 18:20:42 +0700</lastBuildDate>
+    <atom:link href="https://episto.my.id/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
-      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate>
-      <author>muhakmalfadh@gmail.com (Akmal)</author>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <link>https://episto.my.id/tags/docker/</link>
+      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate><author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>https://episto.my.id/tags/docker/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Traefik</title>
-      <link>http://localhost:1313/tags/traefik/</link>
-      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate>
-      <author>muhakmalfadh@gmail.com (Akmal)</author>
-      <guid>http://localhost:1313/tags/traefik/</guid>
+      <link>https://episto.my.id/tags/traefik/</link>
+      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate><author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>https://episto.my.id/tags/traefik/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>
