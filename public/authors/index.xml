@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Episto</title>
-    <link>https://episto.my.id/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Episto</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>muhakmalfadh@gmail.com (Akmal)</managingEditor>
     <webMaster>muhakmalfadh@gmail.com (Akmal)</webMaster>
-    <atom:link href="https://episto.my.id/authors/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Akmal</copyright>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

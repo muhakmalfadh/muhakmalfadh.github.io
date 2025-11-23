@@ -2,27 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Episto</title>
-    <link>https://episto.my.id/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Episto</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>muhakmalfadh@gmail.com (Akmal)</managingEditor>
     <webMaster>muhakmalfadh@gmail.com (Akmal)</webMaster>
-    <lastBuildDate>Sun, 31 Aug 2025 18:20:42 +0700</lastBuildDate>
-    <atom:link href="https://episto.my.id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Akmal</copyright>
+    <lastBuildDate>Sun, 23 Nov 2025 07:31:49 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Sun, 23 Nov 2025 07:31:49 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Docker</title>
-      <link>https://episto.my.id/tags/docker/</link>
-      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate><author>muhakmalfadh@gmail.com (Akmal)</author>
-      <guid>https://episto.my.id/tags/docker/</guid>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Sun, 23 Nov 2025 07:31:49 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
+      
     </item>
+    
+    <item>
+      <title>Kernel</title>
+      <link>http://localhost:1313/tags/kernel/</link>
+      <pubDate>Sun, 23 Nov 2025 07:31:49 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xiaomi</title>
+      <link>http://localhost:1313/tags/xiaomi/</link>
+      <pubDate>Sun, 23 Nov 2025 07:31:49 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/xiaomi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bd_prochot</title>
+      <link>http://localhost:1313/tags/bd_prochot/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/bd_prochot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Msr</title>
+      <link>http://localhost:1313/tags/msr/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/msr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Power Management</title>
+      <link>http://localhost:1313/tags/power-management/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/power-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Systemd</title>
+      <link>http://localhost:1313/tags/systemd/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/systemd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Throttling</title>
+      <link>http://localhost:1313/tags/throttling/</link>
+      <pubDate>Sat, 15 Nov 2025 10:17:15 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/throttling/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Traefik</title>
-      <link>https://episto.my.id/tags/traefik/</link>
-      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate><author>muhakmalfadh@gmail.com (Akmal)</author>
-      <guid>https://episto.my.id/tags/traefik/</guid>
+      <link>http://localhost:1313/tags/traefik/</link>
+      <pubDate>Sun, 31 Aug 2025 18:20:42 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/tags/traefik/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

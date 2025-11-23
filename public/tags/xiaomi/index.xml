@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaomi on Episto</title>
+    <link>http://localhost:1313/tags/xiaomi/</link>
+    <description>Recent content in Xiaomi on Episto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>muhakmalfadh@gmail.com (Akmal)</managingEditor>
+    <webMaster>muhakmalfadh@gmail.com (Akmal)</webMaster>
+    <copyright>© 2025 Akmal</copyright>
+    <lastBuildDate>Sun, 23 Nov 2025 07:31:49 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/xiaomi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Kernel Compilation Guide for Xiaomi Mi 10T (Apollon)</title>
+      <link>http://localhost:1313/posts/docker-kernel-compilation-guide-for-xiaomi-mi-10t-apollon/</link>
+      <pubDate>Sun, 23 Nov 2025 07:31:49 +0700</pubDate>
+      <author>muhakmalfadh@gmail.com (Akmal)</author>
+      <guid>http://localhost:1313/posts/docker-kernel-compilation-guide-for-xiaomi-mi-10t-apollon/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
